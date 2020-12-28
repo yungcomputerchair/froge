@@ -1,0 +1,22 @@
+{
+  "name": "froge",
+  "version": "1.0.0",
+  "description": "ribbit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsemaj/froge.git"
+  },
+  "author": "Gent Semaj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gsemaj/froge/issues"
+  },
+  "homepage": "https://github.com/gsemaj/froge#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
