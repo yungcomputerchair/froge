@@ -16,7 +16,7 @@ client.on("ready", () => {
 });
 
 client.on("message", msg => {
-	if(msg.content.includes("frog")) {
+	if(msg.content.toLowerCase().includes("frog")) {
 		msg.channel.send("ribbit");
 	}
 });
