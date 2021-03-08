@@ -15,7 +15,7 @@ client.on("ready", () => {
 });
 
 client.on("message", msg => {
-	if(msg.content.toLowerCase().includes("frog")) {
+	if(msg.content.toLowerCase().includes("frog") || msg.mentions.has(client.user.id)) {
 		msg.channel.send("ribbit");
 	}
 });
