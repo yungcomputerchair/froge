@@ -1,0 +1,14 @@
+version: "2"
+services:
+  node:
+    image: node:20
+    container_name: froge
+    user: node
+    working_dir: /home/node/app
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./:/home/node/app
+    command: "npm start"
+    restart: always
+
